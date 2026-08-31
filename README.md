@@ -280,9 +280,3 @@ psql -U postgres -d aldaleel_inventory -f database/aldaleel_inventory_backup.sql
 
 ---
 
-## Assumptions & Notes
-
-- Authentication and authorization are out of scope for this assessment. All endpoints are publicly accessible.
-- The `ddl-auto=update` setting is used for simplicity. In production this would be replaced with Flyway or Liquibase migrations.
-- Price is captured as a snapshot on each `OrderItem` at creation time, so later product price changes do not affect existing orders.
-- The `CONFIRMED` and `DELIVERED` status transitions are modelled but no dedicated endpoints are implemented for them, as they were not part of the specified user stories.
