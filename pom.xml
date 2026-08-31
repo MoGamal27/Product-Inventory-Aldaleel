@@ -15,7 +15,7 @@
     <groupId>com.aldaleel</groupId>
     <artifactId>inventory</artifactId>
     <version>1.0.0</version>
-    <name>Product Inventory & Stock Reservation</name>
+    <name>Product Inventory and Stock Reservation</name>
     <description>EPIC: Product Inventory and Stock Reservation for Aldaleel</description>
 
     <properties>
